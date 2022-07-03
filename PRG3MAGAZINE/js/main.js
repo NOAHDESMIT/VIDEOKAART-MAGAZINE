@@ -175,16 +175,6 @@ function showDetails(videocard) {
 }
 
 
-function test(divName, item, videocard, specification) {
-    divName = document.createElement("div");
-    divName.innerHTML = `<b>${item}</b>`;
-
-    window[divName + "Div"] = document.createElement("div");
-    window[divName + "Div"].classList.add("textToRight");
-    window[divName + "Div"].innerHTML = videocard[specification];
-    divName.appendChild(window[divName + "Div"]);
-    return divName;
-}
 
 
 
